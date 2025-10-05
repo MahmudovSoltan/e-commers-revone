@@ -1,0 +1,10 @@
+.marquee {
+  background-color: black;
+  padding: 30px 0;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  color: #00a7ce;
+}
