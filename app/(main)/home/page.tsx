@@ -2,6 +2,7 @@ import Hero from '@/app/(main)/home/_section/Hero'
 import './home.css'
 import MarqueeComponent from '@/app/components/marquee'
 import TopCategories from '@/app/(main)/home/_section/TopCategories'
+import PopularProducts from '@/app/(main)/home/_section/PopularProducts'
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
       <Hero />
       <MarqueeComponent />
       <TopCategories />
-
+      <PopularProducts />
     </section>
   )
 }

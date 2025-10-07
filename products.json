@@ -1,0 +1,94 @@
+[
+  {
+    "titile": "Cyber X Pod System Kit",
+    "imag_url": [
+      {
+        "color": "green",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/Cyber-X-Pod-System-Kit2.jpg?v=1756373934&width=400"
+      },
+      {
+        "color": "yellow",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/Cyber-X-Pod-System-Kit.jpg?v=1756373934&width=740"
+      },
+      {
+        "color": "gray",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/Cyber-X-Pod-System-Kit3.jpg?v=1756373934&width=800"
+      },
+      {
+        "color": "blue",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/Cyber-X-Pod-System-Kit4.jpg?v=1756373934&width=400"
+      },
+      {
+        "color": "orange",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/Cyber-X-Pod-System-Kit5.jpg?v=1756373934&width=400"
+      }
+    ],
+    "price": 50.0,
+    "Product_Type": "Pod System Kit",
+    "Brand": "Aspire"
+  },
+
+  {
+    "titile": "Refillable Pods 2ml - 2 x Pods",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/refill.jpg?v=1756373931&width=740",
+    "price": 25.0,
+    "Product_Type": "POD",
+    "Brand": "Rocks"
+  },
+  {
+    "titile": "Geek Bar Lite Disposable Pod",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/geek.jpg?v=1756373931&width=740",
+    "price": 20.0,
+    "Product_Type": "POD",
+    "Brand": "Rocks"
+  },
+  {
+    "titile": "Level X Boost Device Kit",
+    "imag_url": [
+      {
+        "color": "red",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/41.jpg?v=1756373930&width=400"
+      },
+      {
+        "color": "gray",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/42.jpg?v=1756373930&width=400"
+      },
+      {
+        "color": "silver",
+        "url": "https://revonedemo.myshopify.com/cdn/shop/files/43.jpg?v=1756373930&width=400"
+      }
+    ],
+    "price": 67.0,
+    "Product_Type": "Device Kit",
+    "Brand": "Voopoo"
+  },
+  {
+    "titile": "Argus GT 2 Starter Kit 200w",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/32.jpg?v=1756373929&width=740",
+    "price": 80.0,
+    "discount": 70.0,
+    "Product_Type": "Kit",
+    "Brand": "Aspire"
+  },
+  {
+    "titile": "Strawberry 100ml Vape Juice",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/juice.jpg?v=1756373928&width=740",
+    "price": 30.0,
+    "Product_Type": "Juice",
+    "Brand": "Elux"
+  },
+  {
+    "titile": "Blue Bar Disposable vape Kit",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/bluebar.jpg?v=1756373927&width=740",
+    "price": 30.0,
+    "Product_Type": "Disposable Vape",
+    "Brand": "Innokin"
+  },
+  {
+    "titile": "PREFILLED DISPOSABLE POD KIT",
+    "imag_url": "https://revonedemo.myshopify.com/cdn/shop/files/12_0b18deec-deb5-4871-aba4-3850836dde6d.jpg?v=1756373926&width=740",
+    "price": 25.0,
+    "Product_Type": "DISPOSABLE POD",
+    "Brand": "Smok"
+  }
+]

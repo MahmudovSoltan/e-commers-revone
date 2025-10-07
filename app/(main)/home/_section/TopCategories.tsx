@@ -17,9 +17,10 @@ const TopCategories = () => {
             </div>
             <Swiper
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={4}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
+                loop={true}
             >
 
 
@@ -28,6 +29,7 @@ const TopCategories = () => {
                         <SwiperSlide key={index} >
 
                             <div className='top-categories__item'>
+                            
                                 <img src={item.image_url} alt={item.titile} />
                                 <h3>{item.titile}</h3>
                             </div>
