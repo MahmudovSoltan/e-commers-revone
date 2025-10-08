@@ -3,6 +3,7 @@ import './home.css'
 import MarqueeComponent from '@/app/components/marquee'
 import TopCategories from '@/app/(main)/home/_section/TopCategories'
 import PopularProducts from '@/app/(main)/home/_section/PopularProducts'
+import ExploreMore from '@/app/(main)/home/_section/ExploreMore'
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <MarqueeComponent />
       <TopCategories />
       <PopularProducts />
+      <ExploreMore />
     </section>
   )
 }

@@ -59,16 +59,16 @@ const ProductCard = ({ product }: { product: IProduct }) => {
             </div>
             <div className="product-card__icons">
 
-                <div>
+                <div className="product-card__icon">
                     <div className="icons_tooltip">Add to wishlist</div>
                     <FaRegHeart size={15} />
 
                 </div>
-                <div>
+                <div  className="product-card__icon">
                     <div className="icons_tooltip">Quick Add</div>
                     <RiShoppingBasketLine size={15} />
                 </div>
-                <div>
+                <div className="product-card__icon">
                     <div className="icons_tooltip">Quick View</div>
                     <FiEye size={15} />
 
