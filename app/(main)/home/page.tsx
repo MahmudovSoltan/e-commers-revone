@@ -4,6 +4,7 @@ import MarqueeComponent from '@/app/components/marquee'
 import TopCategories from '@/app/(main)/home/_section/TopCategories'
 import PopularProducts from '@/app/(main)/home/_section/PopularProducts'
 import ExploreMore from '@/app/(main)/home/_section/ExploreMore'
+import PopularCollection from '@/app/(main)/home/_section/PopularCollection'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <TopCategories />
       <PopularProducts />
       <ExploreMore />
+      <PopularCollection />
     </section>
   )
 }
