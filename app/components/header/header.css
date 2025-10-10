@@ -1,25 +1,28 @@
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  transition: all 0.3s ease;
+  position: relative;
+  z-index: 999;
 }
-
-.header-navigation:hover {
+.header-navigation {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  /* background-color: transparent; */
+  width: 100%;
+  height: 50px;
   background-color: #ffffff;
+}
+.header-navigation:hover {
   transition: all 0.3s ease;
 }
 .header-navigation svg {
   color: #ffffff;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .header-navigation:hover .logo,
 .header-navigation:hover .header-navbar li,
 .header-navigation:hover .header_icons svg {
   color: #000000;
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .header-top {
   display: flex;
@@ -53,12 +56,15 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0px 15px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 .header-navbar {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.header-navigation .logo {
+  color: #000000 !important;
 }
 .header-navbar li {
   cursor: pointer;
@@ -69,7 +75,7 @@ header {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  color: #ffffff;
+  color: #000000;
   transition: all 0.3s ease;
 }
 .header-navbar li:hover {

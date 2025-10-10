@@ -5,6 +5,7 @@ import TopCategories from '@/app/(main)/home/_section/TopCategories'
 import PopularProducts from '@/app/(main)/home/_section/PopularProducts'
 import ExploreMore from '@/app/(main)/home/_section/ExploreMore'
 import PopularCollection from '@/app/(main)/home/_section/PopularCollection'
+import Faqs from '@/app/(main)/home/_section/Faqs'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <PopularProducts />
       <ExploreMore />
       <PopularCollection />
+      <Faqs />
     </section>
   )
 }

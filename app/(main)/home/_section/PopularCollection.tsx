@@ -71,9 +71,12 @@ const PopularCollection = () => {
                         <p className="card_text">
                             Our E-Juice ensures a customized vaping experience that suits both beginners and seasoned vapers.
                         </p>
+
+
                         <button className="crad_btn">
                             EXPLORE NOW
                         </button>
+
                     </div>
                 </div>
                 <div className="grid-card">

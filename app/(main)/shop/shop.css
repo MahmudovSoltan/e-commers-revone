@@ -1,0 +1,63 @@
+.shop-hero {
+  background-image: url("https://revone-demo.myshopify.com/cdn/shop/files/blog-date.jpg?v=1739427478&width=1200");
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.shope-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.shope-content {
+  z-index: 1;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.shope-content span {
+  cursor: pointer;
+}
+.headr-carusel_container {
+  padding: 80px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+}
+.swiper-card{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.swiper-card:hover .swiper-image img{
+    scale: 1.1;
+}
+.swiper-image{
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.swiper-image img {
+  object-fit: cover;
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+.categories_title{
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
